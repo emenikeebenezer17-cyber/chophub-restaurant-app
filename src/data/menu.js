@@ -1,0 +1,12 @@
+export const menuItems = [
+  { id: 1, name: 'Smoky Party Jollof', category: 'Rice', price: 4500, description: 'Long-grain rice cooked in a rich pepper and tomato sauce, served with sweet plantain.', image: 'https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?auto=format&fit=crop&w=900&q=85', tag: 'Bestseller' },
+  { id: 2, name: 'Village Fried Rice', category: 'Rice', price: 5000, description: 'Colourful fried rice with mixed vegetables, liver and our signature spice blend.', image: 'https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=85', tag: 'Popular' },
+  { id: 3, name: 'Egusi & Pounded Yam', category: 'Swallow', price: 6500, description: 'Melon-seed soup simmered with leafy greens, assorted meat and soft pounded yam.', image: 'https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85', tag: 'Local favourite' },
+  { id: 4, name: 'Afang Soup Combo', category: 'Swallow', price: 7000, description: 'Traditional Afang soup with rich stock, assorted protein and your choice of swallow.', image: 'https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85' },
+  { id: 5, name: 'Peppered Chicken', category: 'Sides', price: 3500, description: 'Tender grilled chicken tossed in a bold house pepper sauce.', image: 'https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=900&q=85' },
+  { id: 6, name: 'Golden Dodo', category: 'Sides', price: 1800, description: 'Sweet ripe plantain, sliced and fried until golden at the edges.', image: 'https://images.unsplash.com/photo-1587132137056-bfbf0166836e?auto=format&fit=crop&w=900&q=85' },
+  { id: 7, name: 'Beef Suya Bowl', category: 'Grills', price: 5500, description: 'Char-grilled beef suya with onions, tomatoes and a side of fresh greens.', image: 'https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?auto=format&fit=crop&w=900&q=85', tag: 'Chef’s pick' },
+  { id: 8, name: 'Grilled Fish', category: 'Grills', price: 8500, description: 'Whole fish marinated in herbs and spices, grilled and served with pepper dip.', image: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=900&q=85' }
+];
+
+export const formatPrice = (amount) => `₦${amount.toLocaleString('en-NG')}`;
